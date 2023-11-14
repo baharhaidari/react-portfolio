@@ -1,0 +1,227 @@
+{
+  "NAVBAR": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "LANGUAGE_INPUT": {
+    "english": "English",
+    "spanish": "spanish"
+  },
+
+  "HEADER": {
+    "greet": "Hello I'm",
+    "name": "Bahar Haidari",
+    "profession": "A Frontend Web Developer",
+    "desc": "with a passion for crafting stunning websites. I specialize in creating engaging user experiences through elegant design and seamless functionality. Welcome to my portfolio, where aesthetics meet functionality!",
+    "cv-button": "Download CV",
+    "contact-button": "Contact Me",
+    "image-alt": "Profile Image"
+  },
+
+  "ABOUT": {
+    "heading": "About Me",
+
+    "fisrt-tab": "About",
+    "second-tab": "Timeline",
+    "third-tab": "Certificates",
+
+    "image": "../../../assets/Images/my profile.jpg",
+    "desc": "I'm Bahar, a passionate frontend web developer with expertise in HTML, CSS, JavaScript, and frontend frameworks. With 1 years of experience, I specialize in creating visually appealing and user-friendly websites. I'm dedicated to delivering exceptional user experiences by combining creativity, clean code, and best practices. Let's collaborate and bring your web project to life!",
+
+    "Contact-info": [
+      {
+        "lable": "Email Address",
+        "info": "BaharHaidary18@gmail.com"
+      },
+
+      {
+        "lable": "Phone Number",
+        "info": "+93 702 7384 17"
+      }
+    ],
+
+    "Hobbies-heading": "My Hobbies",
+    "hobbies": ["Gaming", "Sport", "Music", "Travel", "Shopping"],
+
+    "timeline": [
+      {
+        "startDate": "2022",
+        "endDate": "2023",
+        "title": "Certified of Algoritms and Data structure.",
+        "desc": "I recently certified of this course provided by FreeCodeCamp website."
+      },
+
+      {
+        "startDate": "2022",
+        "endDate": "2023",
+        "title": "Studying full stack developmen.",
+        "desc": "I am currently learning Full Stack web dev at code to inspire"
+      },
+
+      {
+        "startDate": "2011",
+        "endDate": "2022",
+        "title": "High School Certified.",
+        "desc": "I have graduated from school and got my diploma"
+      },
+
+      {
+        "startDate": "2015",
+        "endDate": "2017",
+        "title": "Certified of English class.",
+        "desc": "I just certified of NanoNet's english class"
+      }
+    ],
+
+    "SEARCH": {
+      "placeholder": "Search",
+      "label": "Search"
+    },
+
+    "certificates": [
+      {
+        "imageAlt": "English certificate image",
+        "title": "English"
+      },
+
+      {
+        "imageAlt": "Turkish certificate image",
+        "title": "Turkish"
+      },
+
+      {
+        "imageAlt": "HTMl certificate image",
+        "title": "HTML"
+      },
+
+      {
+        "imageAlt": "Turkish certificate image",
+        "title": "Turkish"
+      },
+
+      {
+        "imageAlt": "Turkish certificate image",
+        "title": "Turkish"
+      }
+    ]
+  },
+
+  "SKILLS": {
+    "heading": "My Skills",
+
+    "TECHNICA_SKILLS_SUB_TITLE": "Technical Skills",
+    "TECHNICA_SKILLS": [
+      { "skill": "HTML", "percentage": 80 },
+      { "skill": "CSS", "percentage": 85 },
+      { "skill": "Bootstrap", "percentage": 95 },
+      { "skill": "JavaScript", "percentage": 80 },
+      { "skill": "React", "percentage": 70 }
+    ],
+
+    "PERSONAL_SKILLS_SUB_TITLE": "Personal Skills",
+    "PERSONAL_SKILLS": [
+      { "skill": "Teamwork", "percentage": 90 },
+      { "skill": "Creativity", "percentage": 85 },
+      { "skill": "Management", "percentage": 80 },
+      { "skill": "Learning", "percentage": 85 },
+      { "skill": "Planing", "percentage": 70 }
+    ]
+  },
+
+  "PROJECTS": {
+    "heading": "My Projects",
+
+    "projectDetails": [
+      {
+        "id": 1,
+        "category": "Web Development",
+        "title": "Bit Dog",
+        "link": "https://baharhaidary.github.io/BitDog-project/"
+      },
+
+      {
+        "id": 2,
+        "category": "Game Development",
+        "title": "Random Num game",
+        "link": "https://baharhaidari.github.io/guess-number-game/"
+      },
+
+      {
+        "id": 3,
+        "category": "Game Development",
+        "title": "Simon game",
+        "link": " https://baharhaidari.github.io/simon-game/JS-challenge.html"
+      },
+
+      {
+        "id": 4,
+        "category": "Web Development",
+        "title": "Perfume Shop",
+        "link": "https://perfume-shop-self.vercel.app/"
+      },
+
+      {
+        "id": 3,
+        "category": "Game Development",
+        "title": "Simon game",
+        "link": " https://baharhaidari.github.io/simon-game/JS-challenge.html"
+      },
+
+      {
+        "id": 5,
+        "category": "Web Development",
+        "title": "",
+        "link": "https://baharhaidary.github.io/BitDog-project/"
+      }
+    ],
+
+    "search-input-lable": "Search",
+    "previous-lable": "Previous",
+    "next-lable": "Next"
+  },
+
+  "CONTACT": {
+    "heading": "Contact Me",
+    "first-name-label": "Your First Name",
+    "last-name-label": "Your Last Name",
+    "email-address-label": "Your Email",
+    "email-subject-label": "Email Subject",
+    "message-area-label": "Your Message",
+    "button-text": "Send Message"
+  },
+
+  "FOOTER": {
+    "LINKS": {
+      "heading": "Links",
+      "links-data": [
+        {
+          "lable": "Code to Inspire",
+          "desc": "Visit Code to Inspire website",
+          "url": "https://codetoinspire.org"
+        },
+        {
+          "lable": "Fereshte Forough",
+          "desc": "Send Email",
+          "url": "mailto:Fereshteh@codetoinspire.org"
+        },
+        {
+          "lable": "Ehsan Ehrari",
+          "desc": "Send Email",
+          "url": "mailto:EhsanEhrari@codetoinspire.org"
+        }
+      ]
+    },
+
+    "SOCIAL_MEDIA": {
+      "heading": "Follow Me on Social Media"
+    },
+
+    "FOOTER_TEXT": {
+      "copy-right-text": "Copyright © {{year}} by Bahar Haidari | All Rights Reserved."
+    }
+  }
+}

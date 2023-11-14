@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+h1 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: bolder;
+}
+
+p {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 400;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 0 100px;
+  height: 100vh;
+  width: 100%;
+}
+
+* {
+  outline: none;
+}
+
+:root {
+  --neon-color: #0ef;
+  --dark-blue-color: #176980;
+  --text-color: #fff;
+  --first-bg-color: #161f2b;
+  --second-bg-color: #202734;
+  --navbar-bg-color: #1b2430;
+  --button-border-color: #333b46;
+  --tabs-color: rgb(66, 82, 96);
+  --black-color: #000;
+  --active-tab-bg-color: #1f2c3d;
+  --timeline-content-bg-color: #1f2a39;
+  --bars-container-bg-color: #c2c6e2;
+  --project-link-color: rgb(7, 157, 167);
+  --stars-color: gold;
+  --social-media-color: #323946;
+}

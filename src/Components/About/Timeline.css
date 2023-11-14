@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto 3.3rem auto;
+  padding: 10px;
+  margin-top: 1rem;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: var(--neon-color);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: 0;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: -11px;
+  background-color: var(--dark-blue-color);
+  border: 4px solid var(--neon-color);
+  top: 15px;
+  border-radius: 50%;
+  z-index: 9999;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 20px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid var(--text-color);
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent var(--text-color);
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 20px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid var(--text-color);
+  border-width: 10px 10px 10px 0;
+  border-color: transparent var(--text-color) transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -12px;
+}
+
+/* The actual content */
+.content {
+  padding: 0.8rem 3.5rem;
+  background-color: var(--timeline-content-bg-color);
+  position: relative;
+  border-radius: 6px;
+  border: 1.5px solid var(--text-color);
+  color: var(--text-color);
+  transition: 0.3s ease-in-out;
+}
+
+.content:hover {
+  box-shadow: 1px 1px 8px var(--text-color);
+}
+
+.search-container {
+  display: flex;
+  margin: 1.5rem auto 0 15.4rem;
+}
+
+.search-container input {
+  padding: 0.3rem 1.3rem;
+  color: var(--text-color);
+  background: var(--button-border-color);
+  border: 2px solid var(--button-border-color);
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+
+.search-container label {
+  color: #fff;
+  font-size: 1.6rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.7rem;
+}
+
+@media (max-width: 576px) {
+  .content {
+    padding: 15px 7px;
+  }
+
+  .content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .timeline {
+    margin-top: 3rem;
+  }
+
+  .container.left {
+    padding-left: 0;
+  }
+
+  .container.right {
+    padding-right: 0;
+  }
+
+  .search-container {
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+  }
+
+  .modal-content {
+    margin: 90% 10% !important;
+    padding: 20px 15px !important;
+    width: auto !important;
+  }
+}
+
+.content:hover {
+  box-shadow: 1px 1px 8px var(--text-color);
+  cursor: pointer;
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  background-color: var(--timeline-content-bg-color);
+  margin: 20% auto;
+  padding: 30px 35px;
+  border-radius: 6px;
+  border: 1.5px solid var(--neon-color);
+  color: var(--text-color);
+  width: 35%;
+  position: relative;
+}
+
+.close {
+  color: var(--text-color);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: var(--neon-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content .modal-desc {
+  font-size: 1.3rem;
+}
+
+.modal-content .modal-title {
+  font-size: 1.5rem;
+}

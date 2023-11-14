@@ -1,0 +1,47 @@
+.skill-bar {
+  width: 70%;
+  margin: 1.5rem auto;
+}
+
+.skill-name {
+  margin-bottom: 0.6rem;
+  text-align: left;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-name span {
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.skill-name .skill-percentage {
+  font-size: 1.4rem;
+  color: var(--bars-container-bg-color);
+}
+
+.bar-container {
+  position: relative;
+  background-color: var(--bars-container-bg-color);
+  height: 1rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    var(--neon-color),
+    var(--dark-blue-color)
+  );
+  width: 0;
+  animation: fillAnimation 3.7s ease-in-out;
+}
+
+@keyframes fillAnimation {
+  from {
+    width: 0;
+  }
+}

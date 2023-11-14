@@ -1,0 +1,10 @@
+.lang-input {
+  padding: 3.5px 8px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: var(--social-media-color);
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+}

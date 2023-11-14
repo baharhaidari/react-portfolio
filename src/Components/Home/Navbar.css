@@ -1,0 +1,119 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--navbar-bg-color);
+  padding: 5px 100px;
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  opacity: 0.9;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-size: 3.8rem;
+  color: var(--neon-color);
+  font-weight: 800;
+  font-family: "Dancing Script";
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style-type: none;
+  padding: 0 0 0 4.5rem;
+  position: relative;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 1.65rem;
+  font-weight: 500;
+  color: var(--text-color);
+  transition: 0.3s ease-in-out;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: var(--neon-color);
+}
+
+#navbar li a.active::before,
+#navbar li a:hover::before {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: var(--neon-color);
+  position: absolute;
+  bottom: -4px;
+  left: 4.5rem;
+}
+
+/* extra small devices */
+@media (max-width: 576px) {
+  .navbar {
+    padding: 10px 20px;
+    width: 100%;
+    transition: all 2s ease;
+  }
+
+  .navbar .menu-toggle {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .menu-icon {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-left: 1rem;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .navbar .menu.open {
+    display: block;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    width: 35%;
+    height: 40vh;
+    background-color: var(--navbar-bg-color);
+  }
+
+  .navbar .menu ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar .menu li {
+    padding: 10px 0;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  #navbar li {
+    padding-left: 0;
+  }
+
+  #navbar li a.active::before,
+  #navbar li a:hover::before {
+    left: 0;
+    width: 60%;
+  }
+
+  .lang-menu {
+    display: flex;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+}

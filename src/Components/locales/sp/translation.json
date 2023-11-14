@@ -1,0 +1,220 @@
+{
+  "NAVBAR": {
+    "home": "Hogar",
+    "about": "Acerca de",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+
+  "LANGUAGE_INPUT": {
+    "english": "ingles",
+    "spanish": "spanish"
+  },
+
+  "HEADER": {
+    "greet": "Hola yo soy",
+    "name": "Bahar Haidari",
+    "profession": "Una Desarrolladora Web Frontend",
+    "desc": "con pasión por crear sitios web impresionantes. Me especializo en crear experiencias de usuario atractivas a través de un diseño elegante y una funcionalidad perfecta. ¡Bienvenido a mi portafolio, donde la estética se encuentra con la funcionalidad!",
+    "cv-button": "Descargar CV",
+    "contact-button": "Contáctame",
+    "image-alt": "foto de perfil"
+  },
+
+  "ABOUT": {
+    "heading": "Acerca de mí",
+
+    "fisrt-tab": "Acerca de",
+    "second-tab": "Cronograma",
+    "third-tab": "Certificados",
+
+    "image": "../../../assets/Images/my profile.jpg",
+    "desc": "Soy Bahar, un apasionado desarrollador web frontend con experiencia en HTML, CSS, JavaScript y frameworks frontend. Con 1 años de experiencia, me especializo en la creación de sitios web visualmente atractivos y fáciles de usar. Me dedico a brindar experiencias de usuario excepcionales combinando creatividad, código limpio y mejores prácticas. ¡Colaboremos y demos vida a tu proyecto web!",
+
+    "Contact-info": [
+      {
+        "lable": "Email Address",
+        "info": "BaharHaidary18@gmail.com"
+      },
+
+      {
+        "lable": "Phone Number",
+        "info": "+93 702 7384 17"
+      }
+    ],
+
+    "Hobbies-heading": "mis aficiones",
+    "hobbies": ["Juego", "Deporte", "Música", "Viajar", "Compras"],
+
+    "timeline": [
+      {
+        "startDate": "2022",
+        "endDate": "2023",
+        "title": "Certificado de Algoritmos y Estructura de Datos",
+        "desc": "I learned it"
+      },
+
+      {
+        "startDate": "2022",
+        "endDate": "2023",
+        "title": "Estudia en Code to Inspire",
+        "desc": "currently learning it in CTI"
+      },
+
+      {
+        "startDate": "2011",
+        "endDate": "2022",
+        "title": "Certificado escolar",
+        "desc": "currently learning"
+      },
+
+      {
+        "startDate": "2015",
+        "endDate": "2017",
+        "title": "Certificado de ingles",
+        "desc": "Last year I certified of this course in w3schools"
+      }
+    ],
+
+    "SEARCH": {
+      "placeholder": "jostogos",
+      "label": "Search"
+    },
+
+    "certificates": [
+      {
+        "imageAlt": "Imagen del certificado de inglés.",
+        "title": "Inglés"
+      },
+
+      {
+        "imageAlt": "Imagen del certificado turco",
+        "title": "Turco"
+      },
+
+      {
+        "imageAlt": "Imagen de certificado HTML",
+        "title": "HTML"
+      },
+
+      {
+        "imageAlt": "Imagen del certificado de inglés.",
+        "title": "Inglés"
+      },
+
+      {
+        "imageAlt": "Imagen del certificado turco",
+        "title": "Turco"
+      }
+    ]
+  },
+
+  "SKILLS": {
+    "heading": "Mis habilidades",
+
+    "TECHNICA_SKILLS_SUB_TITLE": "habilidades técnicas",
+    "TECHNICA_SKILLS": [
+      { "skill": "HTML", "percentage": 80 },
+      { "skill": "CSS", "percentage": 85 },
+      { "skill": "Bootstrap", "percentage": 95 },
+      { "skill": "JavaScript", "percentage": 80 },
+      { "skill": "React", "percentage": 70 }
+    ],
+
+    "PERSONAL_SKILLS_SUB_TITLE": "habilidades personales",
+    "PERSONAL_SKILLS": [
+      { "skill": "trabajo en equipo", "percentage": 80 },
+      { "skill": "Creatividad", "percentage": 85 },
+      { "skill": "Gestión", "percentage": 95 },
+      { "skill": "Aprendiendo", "percentage": 80 },
+      { "skill": "planeando", "percentage": 70 }
+    ]
+  },
+
+  "PROJECTS": {
+    "heading": "Mis Proyectos",
+
+    "projectDetails": [
+      {
+        "id": 1,
+        "category": "desarrollo web",
+        "title": "Sitio web de comercio electrónico",
+        "link": "https://baharhaidary.github.io/BitDog-project/"
+      },
+
+      {
+        "id": 2,
+        "category": "desarrollo web",
+        "title": "Diseño de logo",
+        "link": "https://baharhaidary.github.io/BitDog-project/"
+      },
+
+      {
+        "id": 3,
+        "category": "Desarrollo de juegos",
+        "title": "juego de simón",
+        "link": "https://baharhaidary.github.io/BitDog-project/"
+      },
+
+      {
+        "id": 4,
+        "category": "desarrollo web",
+        "title": "diseño web adaptable",
+        "link": "https://baharhaidary.github.io/BitDog-project/"
+      },
+
+      {
+        "id": 5,
+        "category": "desarrollo web",
+        "title": "diseño web",
+        "link": "https://baharhaidary.github.io/BitDog-project/"
+      }
+    ],
+
+    "search-input-lable": "Buscar",
+    "previous-lable": "anterior",
+    "next-lable": "próximo"
+  },
+
+  "CONTACT": {
+    "heading": "contáctame",
+    "first-name-label": "Su nombre",
+    "last-name-label": "Tu apellido",
+    "email-address-label": "Tu correo electrónico",
+    "email-subject-label": "Asunto del email",
+    "message-area-label": "Tu mensaje",
+    "button-text": "Enviar mensaje"
+  },
+
+  "FOOTER": {
+    "LINKS": {
+      "heading": "Enlaces",
+      "links-data": [
+        {
+          "lable": "Code to Inspire",
+          "desc": "Visite el sitio web de Code to Inspire",
+          "url": "https://codetoinspire.org"
+        },
+        {
+          "lable": "Fereshte Forough",
+          "desc": "Enviar correo electrónico",
+          "url": "mailto:Fereshteh@codetoinspire.org"
+        },
+        {
+          "lable": "Ehsan Ehrari",
+          "desc": "Enviar correo electrónico",
+          "url": "mailto:EhsanEhrari@codetoinspire.org"
+        }
+      ]
+    },
+
+    "SOCIAL_MEDIA": {
+      "heading": "Sígueme en las redes sociales"
+    },
+
+    "FOOTER_TEXT": {
+      "copy-right-text": "Copyright © {{year}} by Bahar Haidari | Todos los derechos reservados."
+    }
+  }
+}

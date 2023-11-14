@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homeSection {
+  background: var(--first-bg-color);
+  color: var(--text-color);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.home-content h3 {
+  font-size: 2.6rem;
+}
+
+.home-content h1 {
+  font-size: 4.5rem;
+  font-family: "Sacramento", cursive;
+}
+
+.home-content p {
+  font-size: 1.35rem;
+  margin: 2.4rem 0;
+  line-height: 1.2;
+  text-align: justify;
+}
+
+.contents {
+  max-width: 650px;
+}
+
+.btns {
+  background-color: transparent;
+  color: var(--neon-color);
+  padding: 10px 20px;
+  border: 2px solid var(--button-border-color);
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+
+.btns:hover {
+  color: var(--neon-color);
+  border-color: var(--neon-color);
+}
+
+.btn-download {
+  margin-right: 1rem;
+}
+
+.btns .btn-icons {
+  margin-right: 0.6rem;
+}
+
+.profession {
+  color: #0ef;
+}
+
+.homeSection .home-image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.homeSection .home-image img {
+  width: 50%;
+  border-radius: 50%;
+  transition: 0.4s;
+  animation: moveUpDown infinite 2.3s ease-in-out;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* extra small devices */
+@media (max-width: 576px) {
+  .home-content {
+    margin-top: 11rem;
+  }
+
+  .homeSection {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+
+  .homeSection .home-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-content h3 {
+    font-size: 1.9rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .home-content h1 {
+    font-size: 3.1rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .home-content p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  .buttons-containers {
+    text-align: center;
+    align-items: center;
+  }
+
+  .home-image {
+    margin-bottom: 9rem;
+  }
+
+  .contents {
+    padding: 0 7px;
+  }
+
+  .btn-download {
+    margin-right: 1.75rem;
+    border-color: var(--neon-color);
+  }
+
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-18px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .homeSection .home-image img {
+    animation-duration: 2.6s;
+  }
+}
+
+/* small devices */
+@media (max-width: 786px) {
+}

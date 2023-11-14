@@ -1,0 +1,90 @@
+.footer-section {
+  height: 70vh;
+  background: var(--second-bg-color);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.footer-section .footer-text {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  padding-top: 4rem;
+}
+
+.map-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-media a i {
+  font-size: 2.3rem;
+  color: var(--neon-color);
+  background: var(--social-media-color);
+  border: 2px solid var(--neon-color);
+  border-radius: 50%;
+  padding: 0.6rem;
+  transition: 0.3s ease-in-out;
+}
+
+.social-media a i:hover {
+  color: var(--social-media-color);
+  background: var(--neon-color);
+}
+
+.Links-text {
+  text-align: left;
+  font-size: 1.3rem;
+  color: var(--text-color);
+  line-height: 1.7;
+  letter-spacing: 0.2px;
+}
+
+.Links-text a {
+  font-size: 1.3rem;
+  color: var(--neon-color);
+  padding-left: 0.6rem;
+}
+
+.links-title {
+  color: var(--text-color);
+  font-size: 2.2rem;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+.social-media-links {
+  padding-top: 4rem;
+  text-align: left;
+}
+
+.social-media-links h2 {
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+  font-size: 2.2rem;
+}
+
+.social-media-links a {
+  margin-right: 2rem;
+}
+
+@media (max-width: 576px) {
+  .footer-section {
+    padding: 30px 10px;
+    height: 80vh;
+  }
+
+  .map-social {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .google-map {
+    width: 100%;
+    margin-top: 4.3rem;
+  }
+
+  .footer-text {
+    padding-top: 2rem !important;
+  }
+}
